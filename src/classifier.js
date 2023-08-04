@@ -17,7 +17,7 @@ function classifier(input){
 
 
 
-
+    
     // automate acquiring and setting age
 
     function getAge(arrayOfStudents){
@@ -251,3 +251,5 @@ const groupCase= [
   ];
 
 console.log(classifier(groupCase))
+
+export default classifier
